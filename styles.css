@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 650px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 25px;
+    background-color: white;
+}
+
+#band {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+#band li {
+    padding: 24px 15px;
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+}
